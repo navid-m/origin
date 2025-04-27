@@ -10,7 +10,9 @@ import std.format;
 import std.regex;
 import arsd.dom;
 
-immutable string[] MIRROR_SOURCES = ["GET", "Cloudflare", "IPFS.io", "Infura"];
+private static immutable string[] MIRROR_SOURCES = [
+    "GET", "Cloudflare", "IPFS.io", "Infura"
+];
 
 static class LibgenSearch
 {
@@ -212,4 +214,9 @@ string[string][] filterResults(string[string][] results, string[string] filters,
     }
 
     return filteredList;
+}
+
+unittest
+{
+    assert(LibgenSearch.searchTitle("bob").length > 0);
 }
