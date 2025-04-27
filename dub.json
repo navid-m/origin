@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"Navid"
+	],
+	"copyright": "Copyright © 2025, Navid",
+	"dependencies": {
+		"arsd-official:dom": "~>11.5.3"
+	},
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "origin"
+}
