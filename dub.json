@@ -4,7 +4,7 @@
    "dependencies": {
       "arsd-official:dom": "~>11.5.3"
    },
-   "description": "Libgen library API.",
+   "description": "Libgen API library",
    "license": "GPL-3.0",
    "name": "origin"
 }
